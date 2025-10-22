@@ -1,7 +1,7 @@
 {
-  "name": "swr-openapi",
+  "name": "@utegsk/swr-openapi",
   "description": "Generate SWR hooks from OpenAPI schemas",
-  "version": "5.4.2",
+  "version": "5.5.2",
   "author": {
     "name": "Hunter Tunnicliff",
     "email": "hunter@tunnicliff.co"
@@ -20,7 +20,7 @@
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/openapi-ts/openapi-typescript",
+    "url": "https://github.com/utegsk/openapi-typescript",
     "directory": "packages/swr-openapi"
   },
   "keywords": [
@@ -86,5 +86,8 @@
     "react": "18.3.1",
     "swr": "2.3.6",
     "typescript": "5.9.3"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
